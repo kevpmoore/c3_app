@@ -10,15 +10,14 @@ C3 App
 
 * Run rake db:migrate
 
-* run  rake import:load_csv_data[data1.csv]    and rake import:load_csv_data[data2.csv]
+* run  rake import:load_csv_data [data1.csv]    and rake import:load_csv_data [data2.csv]
 
-*
+
 
 
  To run the test suite
 ---------
 
-The Brief
 
 * rake db:migrate RAILS_ENV=test
 
