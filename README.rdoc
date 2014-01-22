@@ -1,9 +1,8 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+C3 App
+================
 
-Things you may want to cover:
 
 * Ruby version   1.9.3
 
@@ -11,11 +10,15 @@ Things you may want to cover:
 
 * Run rake db:migrate
 
-* run  rake import:load_csv_data
+* run  rake import:load_csv_data[data1.csv]    and rake import:load_csv_data[data2.csv]
 
 *
 
-* To run the test suite
+
+ To run the test suite
+---------
+
+The Brief
 
 * rake db:migrate RAILS_ENV=test
 
